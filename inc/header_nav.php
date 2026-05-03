@@ -5,7 +5,7 @@
         </div>
         <div>
             <a href="admin.php">系統管理</a>
-            <a href="logout.php" class="ml-3">登出</a> 
+            <a href="api/logout.php" class="ml-3">登出</a> 
         </div>
     </header>
     <nav class="d-flex justify-content-start p-3">
