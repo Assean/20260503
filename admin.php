@@ -31,21 +31,21 @@
     <script src="js/vue.3.5.13.js"></script>
     <script src="js/bootstrap.js"></script>
     <script>
-        $(function() {
-            loadpage($("span[data-btn='routes']")[0]);
-        });
-        function loadpage(dom){
-            if(!dom) return; 
+        // $(function() {
+        //     loadpage($("span[data-btn='routes']")[0]);
+        // });
+        // function loadpage(dom){
+        //     if(!dom) return; 
 
-            let btn = $(dom).data('btn');
-            let page = "back/" + btn + "_manage.php";
+        //     let btn = $(dom).data('btn');
+        //     let page = "back/" + btn + "_manage.php";
             
-            $.get(page, function(r){
-                $("main").html(r);
-                $(".m-btn").removeClass("active");
-                $(dom).addClass('active');
-            });
-        }
+        //     $.get(page, function(r){
+        //         $("main").html(r);
+        //         $(".m-btn").removeClass("active");
+        //         $(dom).addClass('active');
+        //     });
+        // }
     </script>
 </body>
 </html>
