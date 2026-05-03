@@ -14,19 +14,11 @@
         </div>
         <div>
             <a href="admin.php">系統管理</a>
+            <a href="admin.php">登出</a>
         </div>
     </header>
     <main>
-        <div class="form-group mt-3">
-            <select name="route" id="" class="d-block m-auto col-6 form-control">
-                <option class="" value="1">路線1</option>
-                <option class="" value="2">路線2</option>
-                <option class="" value="3">路線3</option>
-                <option class="" value="4">路線4</option>
-                <option class="" value="5">路線5</option>
-            </select>
-        </div>
-        <div class="w-full" id="RouteMap">路網圖</div>
+        
     </main>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/vue.3.5.13.js"></script>
