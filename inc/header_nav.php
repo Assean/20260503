@@ -5,14 +5,14 @@
         </div>
         <div>
             <a href="admin.php">系統管理</a>
-            <a href="logout.php">登出</a> 
+            <a href="logout.php" class="ml-3">登出</a> 
         </div>
     </header>
-    <nav>
-        <span class="m-btn btn btn-light" data-btn="routes" onclick="loadpage(this)">路線管理</span>
-        <span class="m-btn btn btn-light" data-btn="buses" onclick="loadpage(this)">車輛管理</span>
-        <span class="m-btn btn btn-light" data-btn="stations" onclick="loadpage(this)">站點管理</span>
-        <span class="m-btn btn btn-light" data-btn="forms" onclick="loadpage(this)">表單管理</span>
+    <nav class="d-flex justify-content-start p-3">
+        <span class="m-btn btn btn-light m-2 p-2" data-btn="routes" onclick="loadpage(this)">路線管理</span>
+        <span class="m-btn btn btn-light m-2 p-2" data-btn="buses" onclick="loadpage(this)">車輛管理</span>
+        <span class="m-btn btn btn-light m-2 p-2" data-btn="stations" onclick="loadpage(this)">站點管理</span>
+        <span class="m-btn btn btn-light m-2 p-2" data-btn="forms" onclick="loadpage(this)">表單管理</span>
     </nav>
     <script>
         $(function() {

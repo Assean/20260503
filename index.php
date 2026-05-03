@@ -8,15 +8,6 @@
 </head>
 <body>
     <?php include_once("inc/header_nav.php") ?>
-    <!-- <header class="d-flex justify-content-between p-4 border">
-        <div>
-            <img src="icon/logo.png" alt="">
-           <a href="index.php">大眾運輸查詢系統</a>
-        </div>
-        <div>
-            <a href="admin.php">系統管理</a>
-        </div>
-    </header> -->
     <main>
         <div class="form-group mt-3">
             <select name="route" id="" class="d-block m-auto col-6 form-control">
@@ -27,7 +18,7 @@
                 <option value="5">路線5</option>
             </select>
         </div>
-        <div class="w-full" id="RouteMap">路網圖</div>
+        <div class="w-full bg-light m-5 border" id="RouteMap">路網圖</div>
     </main>
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/vue.3.5.13.js"></script>
