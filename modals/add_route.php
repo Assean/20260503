@@ -22,8 +22,8 @@
             </div>
 
             <div class="form-group">
-                <input type="text" class="my-2 btn btn-success col-12" value='新增'>
-                <input type="text" class="my-2 btn btn-secondary col-12" value='上一頁'>
+                <input type="button" class="my-2 btn btn-success col-12" value='新增'>
+                <input type="button" class="my-2 btn btn-secondary col-12" value='上一頁'>
             </div>
         </form>
       </div>

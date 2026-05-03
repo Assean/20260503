@@ -25,7 +25,7 @@
             let page = "back/" + btn + "_manage.php";
             
             $.get(page, function(r){
-                $("main").html(r);
+                $("#PageContent").html(r);  // ✅ 只換內容區
                 $(".m-btn").removeClass("active");
                 $(dom).addClass('active');
             });
