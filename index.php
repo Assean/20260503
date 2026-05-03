@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
 <body>
+    <!-- header -->
     <header class="d-flex justify-content-between p-4 border">
         <div>
             <img src="icon/logo.png" alt="">
