@@ -15,6 +15,6 @@
         <input type="text" class="btn btn-secondary" value="重新產生驗證碼">
     </div>
     <div class="form-group">
-        <input type="button" value="登入" >
+        <input type="button" class="btn btn-primary" value="登入" onclick="getForm()">
     </div>
 </form>
