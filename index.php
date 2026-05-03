@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
 <body>
-    <!-- header -->
-    <header class="d-flex justify-content-between p-4 border">
+    <?php include_once("inc/header_nav.php") ?>
+    <!-- <header class="d-flex justify-content-between p-4 border">
         <div>
             <img src="icon/logo.png" alt="">
            <a href="index.php">大眾運輸查詢系統</a>
@@ -16,7 +16,7 @@
         <div>
             <a href="admin.php">系統管理</a>
         </div>
-    </header>
+    </header> -->
     <main>
         <div class="form-group mt-3">
             <select name="route" id="" class="d-block m-auto col-6 form-control">
